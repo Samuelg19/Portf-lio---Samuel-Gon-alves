@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfólio — Samuel Victor</title>
+
+  <style>
+    :root{--bg:#f6f8fb;--card:#ffffff;--accent:#0b5cff;--muted:#6b7280;--radius:12px}
+    *{box-sizing:border-box}
+
+    body{
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto;
+      margin:0;background:var(--bg);color:#0f1724
+    }
+
+    .container{max-width:980px;margin:48px auto;padding:24px}
+
+    header{display:flex;gap:20px;align-items:center}
+
+    .avatar img{
+      width:96px;height:96px;
+      border-radius:14px;
+      object-fit:cover;
+    }
+
+    h1{margin:0;font-size:26px}
+
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    .grid{
+      display:grid;
+      grid-template-columns:1fr 320px;
+      gap:18px;margin-top:20px
+    }
+
+    .card{
+      background:var(--card);
+      border-radius:var(--radius);
+      padding:18px;
+      box-shadow:0 6px 18px rgba(12,20,40,0.06)
+    }
+
+    .section-title{
+      font-size:14px;
+      color:var(--muted);
+      text-transform:uppercase;
+      letter-spacing:0.08em;
+      margin-bottom:10px
+    }
+
+    ul.clean{list-style:none;padding:0;margin:0}
+
+    li.item{padding:10px 0;border-bottom:1px solid #eef2f7}
+
+    .muted{color:var(--muted)}
+
+    .contact a{color:var(--accent);text-decoration:none}
+
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+
+    .tag{
+      background:#f1f5f9;
+      padding:6px 10px;
+      border-radius:999px;
+      font-size:13px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:10px 14px;
+      border-radius:10px;
+      background:var(--accent);
+      color:white;
+      text-decoration:none;
+      font-weight:600
+    }
+
+    footer{
+      margin-top:22px;
+      color:var(--muted);
+      font-size:13px;
+      text-align:center
+    }
+
+    @media(max-width:880px){
+      .grid{grid-template-columns:1fr;}
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+
+<header>
+  <div class="avatar">
+    <img src="foto.jpg" alt="Foto de perfil">
+  </div>
+
+  <div>
+    <h1>Samuel Victor Gonçalves Dantas Silva</h1>
+
+    <p class="lead">
+      Tecnologia da Informação • Estágio / Júnior em Suporte Técnico / TI
+    </p>
+
+    <p class="muted">
+      Salvador, BA • 
+      <a href="tel:+5571987676322">(71) 98767-6322</a> • 
+      <a href="mailto:samuel15gdantas@gmail.com">samuel15gdantas@gmail.com</a>
+    </p>
+  </div>
+</header>
+
+<div class="grid">
+
+<main>
+
+<section class="card">
+  <div class="section-title">Objetivo</div>
+  <p>
+    Estágio ou posição Júnior na área de Suporte Técnico / TI, aplicando experiência administrativa e conhecimentos em Análise e Desenvolvimento de Sistemas para oferecer suporte eficiente, documentar processos e contribuir para a melhoria contínua dos sistemas.
+  </p>
+
+  <div style="margin-top:16px" class="section-title">Experiência</div>
+
+  <ul class="clean">
+    <li class="item">
+      <strong>Auxiliar Administrativo — NEPHRON (2023–2025)</strong>
+
+      <ul style="margin-top:8px">
+        <li>Controle de entrada e saída de materiais</li>
+        <li>Organização e higienização de estoque</li>
+        <li>Apoio a setores internos</li>
+        <li>Uso de ferramentas digitais para dados e relatórios</li>
+      </ul>
+    </li>
+  </ul>
+
+  <div style="margin-top:16px" class="section-title">Formação</div>
+
+  <ul class="clean">
+    <li class="item">
+      <strong>Curso Técnico — Eletrotécnica (FBE)</strong>
+      <div class="muted">Cursando • Conclusão: 2026</div>
+    </li>
+
+    <li class="item">
+      <strong>Ensino Superior — ADS (UNIFACS)</strong>
+      <div class="muted">Cursando • Conclusão: 2026</div>
+    </li>
+  </ul>
+</section>
+
+<section style="margin-top:18px" class="card">
+  <div class="section-title">Projetos</div>
+
+  <ul>
+    <li>
+      Circuitos lógicos com CIs 7400 (NOT, AND, OR) em protoboard
+    </li>
+    <li>
+      Projetos de lógica digital e integração de sistemas
+    </li>
+  </ul>
+</section>
+
+</main>
+
+<aside>
+
+<div class="card contact">
+  <div class="section-title">Contato</div>
+
+  <p><strong>Samuel Victor</strong></p>
+
+  <p><a href="mailto:samuel15gdantas@gmail.com">Email</a></p>
+  <p><a href="tel:+5571987676322">Telefone</a></p>
+
+  <p>
+    <a href="https://github.com/samuelg19" target="_blank">
+      GitHub
+    </a>
+  </p>
+
+  <p>
+    <a href="#" target="_blank">
+      LinkedIn (@Samuel Victor)
+    </a>
+  </p>
+
+</div>
+
+<div style="margin-top:14px" class="card">
+  <div class="section-title">Habilidades</div>
+
+  <div class="skills">
+    <span class="tag">Pacote Office</span>
+    <span class="tag">Redes</span>
+    <span class="tag">Hardware</span>
+    <span class="tag">Java</span>
+    <span class="tag">JavaScript</span>
+    <span class="tag">Python</span>
+    <span class="tag">MySQL</span>
+    <span class="tag">CSS</span>
+    <span class="tag">HTML</span>
+    <span class="tag">GitHub</span>
+    <span class="tag">SQL</span>
+    <span class="tag">POO</span>
+    <span class="tag">Lógica Digital</span>
+    <span class="tag">Arquitetura de Computadores</span>
+  </div>
+
+</div>
+
+<div style="margin-top:14px" class="card">
+  <div class="section-title">Idiomas</div>
+
+  <p>Português — Nativo</p>
+  <p>Inglês — Intermediário (em desenvolvimento)</p>
+
+</div>
+
+</aside>
+
+</div>
+
+<footer class="card">
+  <p class="muted">
+    Portfólio atualizado com base no currículo mais recente.
+  </p>
+</footer>
+
+</div>
+</body>
+</html>
